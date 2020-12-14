@@ -19,6 +19,11 @@
     "@angular/platform-browser": "~11.0.4",
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "ngx-bootstrap": "^6.2.0",
+    "ngx-order-pipe": "^2.1.1",
+    "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
