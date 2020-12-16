@@ -35,4 +35,8 @@ export class PostagemService {
     return this.http.delete(`http://localhost:8080/postagens/${id}`, this.token)
   }
 
+  getByTituloPostagem(titulo: string): Observable<Postagem[]>{
+    return this.http.get<Postagem[]>(`http://localhost:8080/postagens/titulo/${titulo}`, this.token)
+  }
+
 }

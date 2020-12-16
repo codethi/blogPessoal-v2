@@ -12,3 +12,7 @@ html
 .fs-18{
   font-size: 18pt;
 }
+
+body {
+  padding: 0 !important;
+}
