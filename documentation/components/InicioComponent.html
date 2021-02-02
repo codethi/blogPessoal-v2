@@ -8,388 +8,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-	    <link rel="stylesheet" href="../styles/style.css">
+	      <link rel="stylesheet" href="../styles/style.css">
     </head>
     <body>
 
         <div class="navbar navbar-default navbar-fixed-top visible-xs">
             <a href="../" class="navbar-brand">blog-pessoal documentation</a>
-            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
         </div>
 
         <div class="xs-menu menu" id="mobile-menu">
-            <div id="book-search-input" role="search">
-                <input type="text" placeholder="Type to search">
-            </div>
-            <nav>
-            
-                <ul class="list">
-            
-                    <li class="title">
-                        <a href="../">blog-pessoal documentation</a>
-                    </li>
-            
-                    <li class="divider"></li>
-            
-            
-                    <li class="chapter">
-                        <a data-type="chapter-link" href="../"><span class="fa fa-home"></span>Getting started</a>
-                        <ul class="links">
-                                <li class="link">
-                                    <a href="../" ><span class="fa fa-file-text-o"></span>README</a>
-                                </li>
-                                <li class="link">
-                                    <a 
-                                        
-                                         href="../overview.html" 
-                                         href="../overview.html" 
-                                        >
-                                        <span class="fa fa-th"></span>Overview
-                                    </a>
-                                </li>
-                        </ul>
-                    </li>
-            
-                    <li class="chapter">
-                        <a data-type="chapter-link" href="./modules.html" >
-                            <span class="fa fa-archive"></span>
-                            <span>Modules</span>
-                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
-                                    data-target="#xs-modules-links"
-                            ></span>
-                        </a>
-                        <ul class="links collapse in"
-                                id="xs-modules-links"
-                            >
-                                <li class="link">
-                                    <a href="../modules/AppModule.html" >AppModule</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../modules/AppRoutingModule.html" >AppRoutingModule</a>
-                                </li>
-                        </ul>
-                    </li>
-            
-                    <li class="chapter">
-                        <div class="simple">
-                            <span class="fa fa-cogs"></span>
-                            <span>Components</span>
-                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
-                                    data-target="#xs-components-links"
-                                ></span>
-                        </div>
-                        <ul class="links collapse in"
-                                id="xs-components-links"
-                            >
-                                <li class="link">
-                                    <a href="../components/AlertasComponent.html" >AlertasComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/AppComponent.html" >AppComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/CadastrarComponent.html" >CadastrarComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/EntrarComponent.html" >EntrarComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/InicioComponent.html"  class="active" >InicioComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/MenuComponent.html" >MenuComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/PostagemDeleteComponent.html" >PostagemDeleteComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/PostagemEditComponent.html" >PostagemEditComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/RodapeComponent.html" >RodapeComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/TemaComponent.html" >TemaComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/TemaDeleteComponent.html" >TemaDeleteComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/TemaEditComponent.html" >TemaEditComponent</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../components/UserEditComponent.html" >UserEditComponent</a>
-                                </li>
-                        </ul>
-                    </li>
-            
-            
-                    <li class="chapter">
-                        <div class="simple">
-                            <span class="fa fa-file-code-o"></span>
-                            <span>Classes</span>
-                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
-                                    data-target="#xs-classes-links"
-                                ></span>
-                        </div>
-                        <ul class="links collapse in"
-                                id="xs-classes-links"
-                            >
-                                <li class="link">
-                                    <a href="../classes/Postagem.html" >Postagem</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../classes/Tema.html" >Tema</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../classes/User.html" >User</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../classes/UserLogin.html" >UserLogin</a>
-                                </li>
-                        </ul>
-                    </li>
-            
-                    <li class="chapter">
-                        <a data-type="chapter-link" href="../routes.html" ><span class="fa fa-code-fork"></span>Routes</a>
-                    </li>
-            
-                    <li class="chapter">
-                        <div class="simple">
-                            <span class="fa fa-long-arrow-down"></span>
-                            <span>Injectables</span>
-                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
-                                    data-target="#xs-injectables-links"
-                                ></span>
-                        </div>
-                        <ul class="links collapse in"
-                                id="xs-injectables-links"
-                            >
-                                <li class="link">
-                                    <a href="../injectables/AlertasService.html" >AlertasService</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../injectables/AuthService.html" >AuthService</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../injectables/PostagemService.html" >PostagemService</a>
-                                </li>
-                                <li class="link">
-                                    <a href="../injectables/TemaService.html" >TemaService</a>
-                                </li>
-                        </ul>
-                    </li>
-            
-            
-            
-                    <li class="chapter">
-                        <a data-type="chapter-link" href="../miscellaneous.html" ><span class="fa fa-cubes"></span>Miscellaneous</a>
-                    </li>
-            
-                    <li class="chapter">
-                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
-                    </li>
-            
-                    <li class="divider"></li>
-                    <li class="copyright">
-                            Documentation generated using <a href="https://compodoc.github.io/compodoc/" target="_blank">
-                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
-                            </a>
-                    </li>
-            
-                </ul>
-            
-            </nav>
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
         </div>
 
         <div class="container-fluid main">
            <div class="row main">
                <div class="hidden-xs menu">
-                   <nav>
-                   
-                       <ul class="list">
-                   
-                           <li class="title">
-                               <a href="../">blog-pessoal documentation</a>
-                           </li>
-                   
-                           <li class="divider"></li>
-                   
-                               <div id="book-search-input" role="search">
-                                   <input type="text" placeholder="Type to search">
-                               </div>
-                   
-                           <li class="chapter">
-                               <a data-type="chapter-link" href="../"><span class="fa fa-home"></span>Getting started</a>
-                               <ul class="links">
-                                       <li class="link">
-                                           <a href="../" ><span class="fa fa-file-text-o"></span>README</a>
-                                       </li>
-                                       <li class="link">
-                                           <a 
-                                               
-                                                href="../overview.html" 
-                                                href="../overview.html" 
-                                               >
-                                               <span class="fa fa-th"></span>Overview
-                                           </a>
-                                       </li>
-                               </ul>
-                           </li>
-                   
-                           <li class="chapter">
-                               <a data-type="chapter-link" href="./modules.html" >
-                                   <span class="fa fa-archive"></span>
-                                   <span>Modules</span>
-                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
-                                           data-target="#modules-links"
-                                   ></span>
-                               </a>
-                               <ul class="links collapse in"
-                                       id="modules-links"
-                   >
-                                       <li class="link">
-                                           <a href="../modules/AppModule.html" >AppModule</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../modules/AppRoutingModule.html" >AppRoutingModule</a>
-                                       </li>
-                               </ul>
-                           </li>
-                   
-                           <li class="chapter">
-                               <div class="simple">
-                                   <span class="fa fa-cogs"></span>
-                                   <span>Components</span>
-                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
-                                           data-target="#components-links"
-                   ></span>
-                               </div>
-                               <ul class="links collapse in"
-                                       id="components-links"
-                   >
-                                       <li class="link">
-                                           <a href="../components/AlertasComponent.html" >AlertasComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/AppComponent.html" >AppComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/CadastrarComponent.html" >CadastrarComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/EntrarComponent.html" >EntrarComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/InicioComponent.html"  class="active" >InicioComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/MenuComponent.html" >MenuComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/PostagemDeleteComponent.html" >PostagemDeleteComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/PostagemEditComponent.html" >PostagemEditComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/RodapeComponent.html" >RodapeComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/TemaComponent.html" >TemaComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/TemaDeleteComponent.html" >TemaDeleteComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/TemaEditComponent.html" >TemaEditComponent</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../components/UserEditComponent.html" >UserEditComponent</a>
-                                       </li>
-                               </ul>
-                           </li>
-                   
-                   
-                           <li class="chapter">
-                               <div class="simple">
-                                   <span class="fa fa-file-code-o"></span>
-                                   <span>Classes</span>
-                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
-                                           data-target="#classes-links"
-                   ></span>
-                               </div>
-                               <ul class="links collapse in"
-                                       id="classes-links"
-                   >
-                                       <li class="link">
-                                           <a href="../classes/Postagem.html" >Postagem</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../classes/Tema.html" >Tema</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../classes/User.html" >User</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../classes/UserLogin.html" >UserLogin</a>
-                                       </li>
-                               </ul>
-                           </li>
-                   
-                           <li class="chapter">
-                               <a data-type="chapter-link" href="../routes.html" ><span class="fa fa-code-fork"></span>Routes</a>
-                           </li>
-                   
-                           <li class="chapter">
-                               <div class="simple">
-                                   <span class="fa fa-long-arrow-down"></span>
-                                   <span>Injectables</span>
-                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
-                                           data-target="#injectables-links"
-                   ></span>
-                               </div>
-                               <ul class="links collapse in"
-                                       id="injectables-links"
-                   >
-                                       <li class="link">
-                                           <a href="../injectables/AlertasService.html" >AlertasService</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../injectables/AuthService.html" >AuthService</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../injectables/PostagemService.html" >PostagemService</a>
-                                       </li>
-                                       <li class="link">
-                                           <a href="../injectables/TemaService.html" >TemaService</a>
-                                       </li>
-                               </ul>
-                           </li>
-                   
-                   
-                   
-                           <li class="chapter">
-                               <a data-type="chapter-link" href="../miscellaneous.html" ><span class="fa fa-cubes"></span>Miscellaneous</a>
-                           </li>
-                   
-                           <li class="chapter">
-                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
-                           </li>
-                   
-                           <li class="divider"></li>
-                           <li class="copyright">
-                                   Documentation generated using <a href="https://compodoc.github.io/compodoc/" target="_blank">
-                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
-                                   </a>
-                           </li>
-                   
-                       </ul>
-                   
-                   </nav>
+                   <compodoc-menu mode="normal"></compodoc-menu>
                </div>
+               <!-- START CONTENT -->
                <div class="content component">
                    <div class="content-data">
+
+
 
 
 <ol class="breadcrumb">
@@ -397,18 +38,26 @@
   <li>InicioComponent</li>
 </ol>
 
-
-    <ul class="nav nav-tabs" role="tablist">
+<ul class="nav nav-tabs" role="tablist">
         <li class="active">
-            <a href="#infos" id="infos-tab" role="tab" data-toggle="tab">Infos</a>
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
         </li>
-        <li>
-            <a href="#source" role="tab" id="source-tab" data-toggle="tab">Source</a>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
         </li>
-    </ul>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
 
-    <div class="tab-content">
-        <div class="tab-pane fade active in" id="infos"><p class="comment">
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
     <h3>File</h3>
 </p>
 <p class="comment">
@@ -417,11 +66,18 @@
 
 
 
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
 <section>
     <h3>Metadata</h3>
     <table class="table table-sm table-hover">
         <tbody>
-
 
 
 
@@ -440,350 +96,898 @@
 
             <tr>
                 <td class="col-md-3">styleUrls</td>
-                <td class="col-md-9"><code>inicio.component.css</code></td>
+                <td class="col-md-9"><code>./inicio.component.css</code></td>
             </tr>
 
 
 
             <tr>
                 <td class="col-md-3">templateUrl</td>
-                <td class="col-md-9"><code>inicio.component.html</code></td>
+                <td class="col-md-9"><code>./inicio.component.html</code></td>
             </tr>
+
+
+
+
+
+
 
 
         </tbody>
     </table>
 </section>
 
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#authService">authService</a>
+                            </li>
+                            <li>
+                                <a href="#idTema">idTema</a>
+                            </li>
+                            <li>
+                                <a href="#idUser">idUser</a>
+                            </li>
+                            <li>
+                                <a href="#key">key</a>
+                            </li>
+                            <li>
+                                <a href="#listaPostagens">listaPostagens</a>
+                            </li>
+                            <li>
+                                <a href="#listaTemas">listaTemas</a>
+                            </li>
+                            <li>
+                                <a href="#nomeTema">nomeTema</a>
+                            </li>
+                            <li>
+                                <a href="#postagem">postagem</a>
+                            </li>
+                            <li>
+                                <a href="#reverse">reverse</a>
+                            </li>
+                            <li>
+                                <a href="#tema">tema</a>
+                            </li>
+                            <li>
+                                <a href="#tituloPost">tituloPost</a>
+                            </li>
+                            <li>
+                                <a href="#user">user</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#findByIdTema">findByIdTema</a>
+                            </li>
+                            <li>
+                                <a href="#findByIdUser">findByIdUser</a>
+                            </li>
+                            <li>
+                                <a href="#findByNomeTema">findByNomeTema</a>
+                            </li>
+                            <li>
+                                <a href="#findByTituloPostagem">findByTituloPostagem</a>
+                            </li>
+                            <li>
+                                <a href="#getAllPostagens">getAllPostagens</a>
+                            </li>
+                            <li>
+                                <a href="#getAllTemas">getAllTemas</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#publicar">publicar</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, postagemService: <a href="../injectables/PostagemService.html">PostagemService</a>, temaService: <a href="../injectables/TemaService.html">TemaService</a>, authService: <a href="../injectables/AuthService.html">AuthService</a>, alertas: <a href="../injectables/AlertasService.html">AlertasService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/inicio/inicio.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>postagemService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/PostagemService.html" target="_self" >PostagemService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>temaService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/TemaService.html" target="_self" >TemaService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthService.html" target="_self" >AuthService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>alertas</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AlertasService.html" target="_self" >AlertasService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
 
 
     <section>
-        <h3 id="constructor">Constructor</h3>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <code>constructor(router: <a href="https://angular.io/docs/ts/latest/api/router/index/Router-class.html" target="_blank" >Router</a>, postagemService: <a href="../injectables/PostagemService.html" >PostagemService</a>, temaService: <a href="../injectables/TemaService.html" >TemaService</a>, authService: <a href="../injectables/AuthService.html" >AuthService</a>, alertas: <a href="../injectables/AlertasService.html" >AlertasService</a>)</code>
-                        </td>
-                    </tr>
     
-                </tbody>
-            </table>
-    </section>
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findByIdTema"></a>
+                    <span class="name">
+                        <b>
+                            findByIdTema
+                        </b>
+                        <a href="#findByIdTema"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>findByIdTema()</code>
+                </td>
+            </tr>
 
-    <section>
-        <h3 id="methods">Methods</h3>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> getAllTemas</b>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-    <code>getAllTemas()</code>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-                                <div class="io-description">
-                                    <b>Returns: </b>    <code>void</code>
-    
-                                </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> findByIdTema</b>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-    <code>findByIdTema()</code>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-                                <div class="io-description">
-                                    <b>Returns: </b>    <code>void</code>
-    
-                                </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> getAllPostagens</b>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-    <code>getAllPostagens()</code>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-                                <div class="io-description">
-                                    <b>Returns: </b>    <code>void</code>
-    
-                                </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> findByIdUser</b>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-    <code>findByIdUser()</code>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-                                <div class="io-description">
-                                    <b>Returns: </b>    <code>void</code>
-    
-                                </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> publicar</b>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-    <code>publicar()</code>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-                                <div class="io-description">
-                                    <b>Returns: </b>    <code>void</code>
-    
-                                </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> findByTituloPostagem</b>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-    <code>findByTituloPostagem()</code>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-                                <div class="io-description">
-                                    <b>Returns: </b>    <code>void</code>
-    
-                                </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> findByNomeTema</b>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-    <code>findByNomeTema()</code>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <td class="col-md-4">
-                                <div class="io-description">
-                                    <b>Returns: </b>    <code>void</code>
-    
-                                </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-    </section>
 
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="61"
+                            class="link-to-prism">src/app/inicio/inicio.component.ts:61</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findByIdUser"></a>
+                    <span class="name">
+                        <b>
+                            findByIdUser
+                        </b>
+                        <a href="#findByIdUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>findByIdUser()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="73"
+                            class="link-to-prism">src/app/inicio/inicio.component.ts:73</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findByNomeTema"></a>
+                    <span class="name">
+                        <b>
+                            findByNomeTema
+                        </b>
+                        <a href="#findByNomeTema"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>findByNomeTema()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="104"
+                            class="link-to-prism">src/app/inicio/inicio.component.ts:104</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findByTituloPostagem"></a>
+                    <span class="name">
+                        <b>
+                            findByTituloPostagem
+                        </b>
+                        <a href="#findByTituloPostagem"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>findByTituloPostagem()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="94"
+                            class="link-to-prism">src/app/inicio/inicio.component.ts:94</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAllPostagens"></a>
+                    <span class="name">
+                        <b>
+                            getAllPostagens
+                        </b>
+                        <a href="#getAllPostagens"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getAllPostagens()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="67"
+                            class="link-to-prism">src/app/inicio/inicio.component.ts:67</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAllTemas"></a>
+                    <span class="name">
+                        <b>
+                            getAllTemas
+                        </b>
+                        <a href="#getAllTemas"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getAllTemas()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="55"
+                            class="link-to-prism">src/app/inicio/inicio.component.ts:55</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="42"
+                            class="link-to-prism">src/app/inicio/inicio.component.ts:42</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="publicar"></a>
+                    <span class="name">
+                        <b>
+                            publicar
+                        </b>
+                        <a href="#publicar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>publicar()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="79"
+                            class="link-to-prism">src/app/inicio/inicio.component.ts:79</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
     <section>
-        <h3 id="inputs">Properties</h3>
-            <table class="table table-sm table-bordered">
-                <tbody>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="authService"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            authService</b>
+                            <a href="#authService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
                     <tr>
                         <td class="col-md-4">
-                            <b> idTema</b>
+                            <i>Type : </i>        <code><a href="../injectables/AuthService.html" target="_self" >AuthService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/inicio/inicio.component.ts:38</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="idTema"></a>
+                        <span class="name">
+                            <b>
+                            idTema</b>
+                            <a href="#idTema"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/inicio/inicio.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="idUser"></a>
+                        <span class="name">
+                            <b>
+                            idUser</b>
+                            <a href="#idUser"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>environment.id</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/inicio/inicio.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="key"></a>
+                        <span class="name">
+                            <b>
+                            key</b>
+                            <a href="#key"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
                         </td>
                     </tr>
                     <tr>
                         <td class="col-md-4">
-                            <code>idTema:     <code>number</code>
-    </bcode>
+                            <i>Default value : </i><code>&#x27;data&#x27;</code>
                         </td>
                     </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/inicio/inicio.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="listaPostagens"></a>
+                        <span class="name">
+                            <b>
+                            listaPostagens</b>
+                            <a href="#listaPostagens"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
                     <tr>
                         <td class="col-md-4">
-                            <b> idUser</b>
+                            <i>Type : </i>        <code><a href="../classes/Postagem.html" target="_self" >Postagem[]</a></code>
+
                         </td>
                     </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/inicio/inicio.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="listaTemas"></a>
+                        <span class="name">
+                            <b>
+                            listaTemas</b>
+                            <a href="#listaTemas"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
                     <tr>
                         <td class="col-md-4">
-                            <code>idUser:     <code>number</code>
-    </bcode>
+                            <i>Type : </i>        <code><a href="../classes/Tema.html" target="_self" >Tema[]</a></code>
+
                         </td>
                     </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/inicio/inicio.component.ts:24</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="nomeTema"></a>
+                        <span class="name">
+                            <b>
+                            nomeTema</b>
+                            <a href="#nomeTema"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
                     <tr>
                         <td class="col-md-4">
-                            <b> listaPostagens</b>
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
                         </td>
                     </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/inicio/inicio.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="postagem"></a>
+                        <span class="name">
+                            <b>
+                            postagem</b>
+                            <a href="#postagem"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
                     <tr>
                         <td class="col-md-4">
-                            <code>listaPostagens:     <code><a href="../classes/Postagem.html" target="_self" >Postagem[]</a></code>
-    </bcode>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> listaTemas</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-4">
-                            <code>listaTemas:     <code><a href="../classes/Tema.html" target="_self" >Tema[]</a></code>
-    </bcode>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> nomeTema</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-4">
-                            <code>nomeTema:     <code>string</code>
-    </bcode>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> postagem</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-4">
-                            <code>postagem:     <code><a href="../classes/Postagem.html" target="_self" >Postagem</a></code>
-    </bcode>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> tema</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-4">
-                            <code>tema:     <code><a href="../classes/Tema.html" target="_self" >Tema</a></code>
-    </bcode>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> tituloPost</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col-md-4">
-                            <code>tituloPost:     <code>string</code>
-    </bcode>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-sm table-bordered">
-                <tbody>
-                    <tr>
-                        <td class="col-md-4">
-                            <b> user</b>
+                            <i>Type : </i>        <code><a href="../classes/Postagem.html" target="_self" >Postagem</a></code>
+
                         </td>
                     </tr>
                     <tr>
                         <td class="col-md-4">
-                            <code>user:     <code><a href="../classes/User.html" target="_self" >User</a></code>
-    </bcode>
+                            <i>Default value : </i><code>new Postagem()</code>
                         </td>
                     </tr>
-                </tbody>
-            </table>
-    </section>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/inicio/inicio.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="reverse"></a>
+                        <span class="name">
+                            <b>
+                            reverse</b>
+                            <a href="#reverse"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>true</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/inicio/inicio.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tema"></a>
+                        <span class="name">
+                            <b>
+                            tema</b>
+                            <a href="#tema"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/Tema.html" target="_self" >Tema</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Tema()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/inicio/inicio.component.ts:23</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tituloPost"></a>
+                        <span class="name">
+                            <b>
+                            tituloPost</b>
+                            <a href="#tituloPost"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/inicio/inicio.component.ts:21</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="user"></a>
+                        <span class="name">
+                            <b>
+                            user</b>
+                            <a href="#user"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/User.html" target="_self" >User</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new User()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/inicio/inicio.component.ts:28</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
 </div>
-        <div class="tab-pane fade tab-source-code" id="source">
-            <pre><code class="hljs javascript">import { AlertasService } from &#x27;./../service/alertas.service&#x27;;
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { AlertasService } from &#x27;./../service/alertas.service&#x27;;
 import { AuthService } from &#x27;./../service/auth.service&#x27;;
 import { User } from &#x27;./../model/User&#x27;;
 import { Tema } from &#x27;./../model/Tema&#x27;;
@@ -813,11 +1017,14 @@ export class InicioComponent implements OnInit {
   user: User &#x3D; new User()
   idUser &#x3D; environment.id
 
+  key &#x3D; &#x27;data&#x27;
+  reverse &#x3D; true
+
   constructor(
     private router: Router,
     private postagemService: PostagemService,
     private temaService: TemaService,
-    private authService: AuthService,
+    public authService: AuthService,
     private alertas: AlertasService
   ) { }
 
@@ -830,6 +1037,8 @@ export class InicioComponent implements OnInit {
 
     this.getAllTemas()
     this.getAllPostagens()
+
+    
   }
 
   getAllTemas(){
@@ -875,7 +1084,7 @@ export class InicioComponent implements OnInit {
     if(this.tituloPost &#x3D;&#x3D; &#x27;&#x27;){
       this.getAllPostagens()
     } else {
-      this.postagemService.getByTituloPostagem(this.tituloPost).subscribe((resp: Postagem[])&#x3D;&gt;{
+      this.postagemService.getByTituloPostagem(this.tituloPost).subscribe((resp: Postagem[]) &#x3D;&gt; {
         this.listaPostagens &#x3D; resp
       })
     }
@@ -885,7 +1094,7 @@ export class InicioComponent implements OnInit {
     if(this.nomeTema &#x3D;&#x3D; &#x27;&#x27;){
       this.getAllTemas()
     } else {
-      this.temaService.getByNomeTema(this.nomeTema).subscribe((resp: Tema[])&#x3D;&gt;{
+      this.temaService.getByNomeTema(this.nomeTema).subscribe((resp: Tema[]) &#x3D;&gt; {
         this.listaTemas &#x3D; resp
       })
     }
@@ -893,21 +1102,269 @@ export class InicioComponent implements OnInit {
 
 }
 </code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;container-fluid&quot;&gt;
+
+  &lt;div class&#x3D;&quot;row bg-secondary d-flex align-items-center&quot;&gt;
+    &lt;div class&#x3D;&quot;col-md-6&quot;&gt;
+
+      &lt;div class&#x3D;&quot;row d-flex justify-content-center&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-6 text-white&quot;&gt;
+          &lt;h1 class&#x3D;&quot;fs-54&quot;&gt;Seja bem vindo(a)!&lt;/h1&gt;
+          &lt;h5 class&#x3D;&quot;fs-18&quot;&gt;expresse aqui os seus pensamentos e opniões!&lt;/h5&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class&#x3D;&quot;row d-flex justify-content-center mt-3 mb-5&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-6&quot;&gt;
+          &lt;button class&#x3D;&quot;btn btn-light mr-2&quot; data-toggle&#x3D;&quot;modal&quot; data-target&#x3D;&quot;#novaPostagem&quot;&gt;Nova Postagem&lt;/button&gt;
+          &lt;a class&#x3D;&quot;btn btn-outline-light&quot; href&#x3D;&quot;#postagens&quot;&gt;Ver Postagens&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+
+
+    &lt;div class&#x3D;&quot;col-md-6 d-flex justify-content-center&quot;&gt;
+      &lt;img src&#x3D;&quot;https://i.imgur.com/H88yIo2.png&quot; alt&#x3D;&quot;&quot; width&#x3D;&quot;500px&quot; height&#x3D;&quot;500px&quot;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;container mb-5 mt-5&quot; id&#x3D;&quot;postagens&quot;&gt;
+
+  &lt;nav *ngIf&#x3D;&#x27;listaPostagens.length !&#x3D; 0&#x27;&gt;
+    &lt;div class&#x3D;&quot;nav nav-tabs d-flex justify-content-center&quot; id&#x3D;&quot;nav-tab&quot; role&#x3D;&quot;tablist&quot;&gt;
+
+      &lt;a class&#x3D;&quot;nav-item nav-link active text-secondary font-weight-bold&quot;
+        id&#x3D;&quot;nav-todasPostagens-tab&quot; data-toggle&#x3D;&quot;tab&quot; href&#x3D;&quot;#todasPostagens&quot; role&#x3D;&quot;tab&quot;
+        aria-controls&#x3D;&quot;nav-todasPostagens&quot; aria-selected&#x3D;&quot;true&quot;&gt;Todas as Postagens&lt;/a&gt;
+
+
+      &lt;a (click)&#x3D;&#x27;findByIdUser()&#x27;
+        class&#x3D;&quot;nav-item nav-link text-secondary font-weight-bold&quot; id&#x3D;&quot;nav-minhasPostagens-tab&quot; data-toggle&#x3D;&quot;tab&quot;
+        href&#x3D;&quot;#minhasPostagens&quot; role&#x3D;&quot;tab&quot; aria-controls&#x3D;&quot;nav-minhasPostagens&quot; aria-selected&#x3D;&quot;false&quot;&gt;Minhas
+        Postagens&lt;/a&gt;
+
+      &lt;a class&#x3D;&quot;nav-item nav-link text-secondary font-weight-bold&quot;
+        id&#x3D;&quot;nav-postagemTema-tab&quot; data-toggle&#x3D;&quot;tab&quot; href&#x3D;&quot;#postagemTema&quot; role&#x3D;&quot;tab&quot; aria-controls&#x3D;&quot;nav-postagemTema&quot;
+        aria-selected&#x3D;&quot;false&quot;&gt;Postagens por tema&lt;/a&gt;
+
+    &lt;/div&gt;
+  &lt;/nav&gt;
+
+  &lt;h2 *ngIf&#x3D;&#x27;listaPostagens.length &#x3D;&#x3D; 0&#x27; class&#x3D;&quot;text-center text-secondary mt-5&quot;&gt;
+    Não existem postagens ainda...
+  &lt;/h2&gt;
+
+  &lt;div class&#x3D;&quot;tab-content mt-5&quot; id&#x3D;&quot;nav-tabContent&quot;&gt;
+
+    &lt;div class&#x3D;&quot;tab-pane fade show active&quot; id&#x3D;&quot;todasPostagens&quot; role&#x3D;&quot;tabpanel&quot; aria-labelledby&#x3D;&quot;nav-todasPostagens-tab&quot;&gt;
+
+      &lt;div class&#x3D;&quot;row d-flex justify-content-center mt-5 mb-5&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-4&quot;&gt;
+          &lt;div class&#x3D;&quot;form-group&quot;&gt;
+            &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;titulo&quot; placeholder&#x3D;&quot;Digite um titulo de postagem para pesquisar&quot; [(ngModel)]&#x3D;&#x27;tituloPost&#x27; (keyup)&#x3D;&#x27;findByTituloPostagem()&#x27;&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class&#x3D;&quot;card-columns&quot;&gt;
+        &lt;div class&#x3D;&quot;card text-center&quot;
+        *ngFor&#x3D;&#x27;let item of listaPostagens | orderBy : key : reverse&#x27;&gt;
+          &lt;div class&#x3D;&quot;card-body&quot;&gt;
+            &lt;h5 class&#x3D;&quot;card-title m-0&quot;&gt;{{item.titulo}}&lt;/h5&gt;
+            &lt;small class&#x3D;&quot;text-muted&quot;&gt; Tema: {{item.tema.descricao}}&lt;/small&gt;
+            &lt;p class&#x3D;&quot;card-text mt-3&quot;&gt;{{item.texto}}&lt;/p&gt;
+            &lt;p class&#x3D;&quot;card-text&quot;&gt;&lt;small class&#x3D;&quot;text-muted&quot;&gt;
+                {{item.data | date: &#x27;dd/MM/yyyy&#x27;}} às {{item.data | date: &#x27;HH:mm&#x27;}}
+              &lt;/small&gt;&lt;/p&gt;
+
+            &lt;p class&#x3D;&quot;card-text&quot;&gt;&lt;small class&#x3D;&quot;text-muted&quot;&gt;
+                by: {{item.usuario.nome}}
+              &lt;/small&gt;&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class&#x3D;&quot;tab-pane fade&quot; id&#x3D;&quot;minhasPostagens&quot; role&#x3D;&quot;tabpanel&quot; aria-labelledby&#x3D;&quot;nav-minhasPostagens-tab&quot;&gt;
+
+
+      &lt;div class&#x3D;&quot;card-columns&quot;&gt;
+        &lt;div class&#x3D;&quot;card text-center&quot; *ngFor&#x3D;&#x27;let item of user.postagem | orderBy : key : reverse&#x27;&gt;
+          &lt;div class&#x3D;&quot;card-body&quot;&gt;
+            &lt;h5 class&#x3D;&quot;card-title m-0&quot;&gt;{{item.titulo}}&lt;/h5&gt;
+            &lt;small class&#x3D;&quot;text-muted&quot;&gt; Tema: {{item.tema.descricao}}&lt;/small&gt;
+            &lt;p class&#x3D;&quot;card-text mt-3&quot;&gt;{{item.texto}}&lt;/p&gt;
+            &lt;p class&#x3D;&quot;card-text&quot;&gt;&lt;small class&#x3D;&quot;text-muted&quot;&gt;
+                {{item.data | date: &#x27;dd/MM/yyyy&#x27;}} às {{item.data | date: &#x27;HH:mm&#x27;}}
+              &lt;/small&gt;&lt;/p&gt;
+
+            &lt;a [routerLink]&#x3D;&quot;[&#x27;/postagem-edit&#x27;, item.id]&quot; class&#x3D;&quot;text-info mr-3&quot; href&#x3D;&quot;&quot;&gt;Editar&lt;/a&gt;
+            &lt;a [routerLink]&#x3D;&quot;[&#x27;/postagem-delete&#x27;, item.id]&quot; class&#x3D;&quot;text-danger&quot; href&#x3D;&quot;&quot;&gt;Apagar&lt;/a&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class&#x3D;&quot;tab-pane fade&quot; id&#x3D;&quot;postagemTema&quot; role&#x3D;&quot;tabpanel&quot; aria-labelledby&#x3D;&quot;nav-postagemTema-tab&quot;&gt;
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+      &lt;div class&#x3D;&quot;row d-flex justify-content-center&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-4&quot;&gt;
+
+          &lt;div class&#x3D;&quot;form-group mb-5&quot;&gt;
+            &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;tituloPesquisa&quot; placeholder&#x3D;&quot;Digite um tema para pesquisar&quot; [(ngModel)]&#x3D;&#x27;nomeTema&#x27; (keyup)&#x3D;&#x27;findByNomeTema()&#x27;&gt;
+          &lt;/div&gt;
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
+      &lt;div class&#x3D;&quot;row d-flex justify-content-center mt-5 mb-5&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-4&quot;&gt;
+          &lt;div class&#x3D;&quot;form-group&quot;&gt;
+            &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;titulo&quot; placeholder&#x3D;&quot;Digite um tema para pesquisar&quot; [(ngModel)]&#x3D;&#x27;nomeTema&#x27; (keyup)&#x3D;&#x27;findByNomeTema()&#x27;&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; adm
+
+      &lt;div class&#x3D;&quot;card-columns&quot; *ngFor&#x3D;&#x27;let tema of listaTemas&#x27;&gt;
+        &lt;div class&#x3D;&quot;card text-center&quot; *ngFor&#x3D;&#x27;let item of tema.postagem | orderBy : key : reverse&#x27;&gt;
+          &lt;div class&#x3D;&quot;card-body&quot;&gt;
+            &lt;h5 class&#x3D;&quot;card-title m-0&quot;&gt;{{item.titulo}}&lt;/h5&gt;
+            &lt;p class&#x3D;&quot;card-text mt-3&quot;&gt;{{item.texto}}&lt;/p&gt;
+            &lt;p class&#x3D;&quot;card-text&quot;&gt;&lt;small class&#x3D;&quot;text-muted&quot;&gt;
+                {{item.data | date: &#x27;dd/MM/yyyy&#x27;}} às {{item.data | date: &#x27;HH:mm&#x27;}}
+              &lt;/small&gt;&lt;/p&gt;
+
+            &lt;p class&#x3D;&quot;card-text&quot;&gt;&lt;small class&#x3D;&quot;text-muted&quot;&gt;
+                by: {{item.usuario.nome}}
+              &lt;/small&gt;&lt;/p&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+
+
+
+
+&lt;!-- Modal --&gt;
+&lt;div class&#x3D;&quot;modal fade&quot; id&#x3D;&quot;novaPostagem&quot; tabindex&#x3D;&quot;-1&quot; role&#x3D;&quot;dialog&quot; aria-labelledby&#x3D;&quot;TituloModalCentralizado&quot;
+  aria-hidden&#x3D;&quot;true&quot;&gt;
+  &lt;div class&#x3D;&quot;modal-dialog modal-dialog-centered&quot; role&#x3D;&quot;document&quot;&gt;
+    &lt;div class&#x3D;&quot;modal-content&quot;&gt;
+      &lt;div class&#x3D;&quot;modal-header&quot;&gt;
+        &lt;h5 class&#x3D;&quot;modal-title&quot; id&#x3D;&quot;TituloModalCentralizado&quot;&gt;Nova Postagem&lt;/h5&gt;
+        &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;close&quot; data-dismiss&#x3D;&quot;modal&quot; aria-label&#x3D;&quot;Fechar&quot;&gt;
+          &lt;span aria-hidden&#x3D;&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;modal-body&quot;&gt;
+
+        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+          &lt;label for&#x3D;&quot;titulo&quot;&gt;Título&lt;/label&gt;
+          &lt;input [(ngModel)]&#x3D;&#x27;postagem.titulo&#x27; type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; id&#x3D;&quot;titulo&quot;
+            placeholder&#x3D;&quot;Digite o título&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+          &lt;label for&#x3D;&quot;texto&quot;&gt;Texto&lt;/label&gt;
+          &lt;textarea [(ngModel)]&#x3D;&#x27;postagem.texto&#x27; class&#x3D;&quot;form-control&quot; name&#x3D;&quot;texto&quot; id&#x3D;&quot;texto&quot; rows&#x3D;&quot;3&quot;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+
+        &lt;div class&#x3D;&quot;form-group&quot;&gt;
+          &lt;label for&#x3D;&quot;texto&quot;&gt;Escolha um tema ou &lt;a data-dismiss&#x3D;&quot;modal&quot; routerLink&#x3D;&#x27;/tema&#x27;&gt;cadastre um novo&lt;/a&gt;:
+          &lt;/label&gt;
+          &lt;select name&#x3D;&quot;tema&quot; id&#x3D;&quot;tema&quot; class&#x3D;&quot;form-control&quot; [(ngModel)]&#x3D;&#x27;idTema&#x27; (change)&#x3D;&#x27;findByIdTema()&#x27;&gt;
+            &lt;option *ngFor&#x3D;&#x27;let item of listaTemas&#x27; value&#x3D;&quot;{{item.id}}&quot;&gt;
+              {{item.descricao}}
+            &lt;/option&gt;
+          &lt;/select&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;modal-footer&quot;&gt;
+        &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-danger&quot; data-dismiss&#x3D;&quot;modal&quot;&gt;Cancelar&lt;/button&gt;
+        &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-success&quot; (click)&#x3D;&#x27;publicar()&#x27; data-dismiss&#x3D;&quot;modal&quot;&gt;Publicar&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./inicio.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
         </div>
     </div>
 
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="container-fluid">  <div class="row bg-secondary d-flex align-items-center">    <div class="col-md-6">      <div class="row d-flex justify-content-center">        <div class="col-md-6 text-white">          <h1 class="fs-54">Seja bem vindo(a)!</h1>          <h5 class="fs-18">expresse aqui os seus pensamentos e opniões!</h5>        </div>      </div>      <div class="row d-flex justify-content-center mt-3 mb-5">        <div class="col-md-6">          <button class="btn btn-light mr-2" data-toggle="modal" data-target="#novaPostagem">Nova Postagem</button>          <a class="btn btn-outline-light" href="#postagens">Ver Postagens</a>        </div>      </div>    </div>    <div class="col-md-6 d-flex justify-content-center">      <img src="https://i.imgur.com/H88yIo2.png" alt="" width="500px" height="500px">    </div>  </div></div><div class="container mb-5 mt-5" id="postagens">  <nav *ngIf=\'listaPostagens.length != 0\'>    <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">      <a class="nav-item nav-link active text-secondary font-weight-bold"        id="nav-todasPostagens-tab" data-toggle="tab" href="#todasPostagens" role="tab"        aria-controls="nav-todasPostagens" aria-selected="true">Todas as Postagens</a>      <a (click)=\'findByIdUser()\'        class="nav-item nav-link text-secondary font-weight-bold" id="nav-minhasPostagens-tab" data-toggle="tab"        href="#minhasPostagens" role="tab" aria-controls="nav-minhasPostagens" aria-selected="false">Minhas        Postagens</a>      <a class="nav-item nav-link text-secondary font-weight-bold"        id="nav-postagemTema-tab" data-toggle="tab" href="#postagemTema" role="tab" aria-controls="nav-postagemTema"        aria-selected="false">Postagens por tema</a>    </div>  </nav>  <h2 *ngIf=\'listaPostagens.length == 0\' class="text-center text-secondary mt-5">    Não existem postagens ainda...  </h2>  <div class="tab-content mt-5" id="nav-tabContent">    <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel" aria-labelledby="nav-todasPostagens-tab">      <div class="row d-flex justify-content-center mt-5 mb-5">        <div class="col-md-4">          <div class="form-group">            <input type="text" class="form-control" id="titulo" placeholder="Digite um titulo de postagem para pesquisar" [(ngModel)]=\'tituloPost\' (keyup)=\'findByTituloPostagem()\'>          </div>        </div>      </div>      <div class="card-columns">        <div class="card text-center"        *ngFor=\'let item of listaPostagens | orderBy : key : reverse\'>          <div class="card-body">            <h5 class="card-title m-0">{{item.titulo}}</h5>            <small class="text-muted"> Tema: {{item.tema.descricao}}</small>            <p class="card-text mt-3">{{item.texto}}</p>            <p class="card-text"><small class="text-muted">                {{item.data | date: \'dd/MM/yyyy\'}} às {{item.data | date: \'HH:mm\'}}              </small></p>            <p class="card-text"><small class="text-muted">                by: {{item.usuario.nome}}              </small></p>          </div>        </div>      </div>    </div>    <div class="tab-pane fade" id="minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens-tab">      <div class="card-columns">        <div class="card text-center" *ngFor=\'let item of user.postagem | orderBy : key : reverse\'>          <div class="card-body">            <h5 class="card-title m-0">{{item.titulo}}</h5>            <small class="text-muted"> Tema: {{item.tema.descricao}}</small>            <p class="card-text mt-3">{{item.texto}}</p>            <p class="card-text"><small class="text-muted">                {{item.data | date: \'dd/MM/yyyy\'}} às {{item.data | date: \'HH:mm\'}}              </small></p>            <a [routerLink]="[\'/postagem-edit\', item.id]" class="text-info mr-3" href="">Editar</a>            <a [routerLink]="[\'/postagem-delete\', item.id]" class="text-danger" href="">Apagar</a>          </div>        </div>      </div>    </div>    <div class="tab-pane fade" id="postagemTema" role="tabpanel" aria-labelledby="nav-postagemTema-tab"><<<<<<< HEAD      <div class="row d-flex justify-content-center">        <div class="col-md-4">          <div class="form-group mb-5">            <input type="text" class="form-control" id="tituloPesquisa" placeholder="Digite um tema para pesquisar" [(ngModel)]=\'nomeTema\' (keyup)=\'findByNomeTema()\'>          </div>        </div>      </div>=======      <div class="row d-flex justify-content-center mt-5 mb-5">        <div class="col-md-4">          <div class="form-group">            <input type="text" class="form-control" id="titulo" placeholder="Digite um tema para pesquisar" [(ngModel)]=\'nomeTema\' (keyup)=\'findByNomeTema()\'>          </div>        </div>      </div>>>>>>>> adm      <div class="card-columns" *ngFor=\'let tema of listaTemas\'>        <div class="card text-center" *ngFor=\'let item of tema.postagem | orderBy : key : reverse\'>          <div class="card-body">            <h5 class="card-title m-0">{{item.titulo}}</h5>            <p class="card-text mt-3">{{item.texto}}</p>            <p class="card-text"><small class="text-muted">                {{item.data | date: \'dd/MM/yyyy\'}} às {{item.data | date: \'HH:mm\'}}              </small></p>            <p class="card-text"><small class="text-muted">                by: {{item.usuario.nome}}              </small></p>          </div>        </div>      </div>    </div>  </div></div><!-- Modal --><div class="modal fade" id="novaPostagem" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado"  aria-hidden="true">  <div class="modal-dialog modal-dialog-centered" role="document">    <div class="modal-content">      <div class="modal-header">        <h5 class="modal-title" id="TituloModalCentralizado">Nova Postagem</h5>        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">          <span aria-hidden="true">&times;</span>        </button>      </div>      <div class="modal-body">        <div class="form-group">          <label for="titulo">Título</label>          <input [(ngModel)]=\'postagem.titulo\' type="text" class="form-control" id="titulo"            placeholder="Digite o título">        </div>        <div class="form-group">          <label for="texto">Texto</label>          <textarea [(ngModel)]=\'postagem.texto\' class="form-control" name="texto" id="texto" rows="3"></textarea>        </div>        <div class="form-group">          <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink=\'/tema\'>cadastre um novo</a>:          </label>          <select name="tema" id="tema" class="form-control" [(ngModel)]=\'idTema\' (change)=\'findByIdTema()\'>            <option *ngFor=\'let item of listaTemas\' value="{{item.id}}">              {{item.descricao}}            </option>          </select>        </div>      </div>      <div class="modal-footer">        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>        <button type="button" class="btn btn-success" (click)=\'publicar()\' data-dismiss="modal">Publicar</button>      </div>    </div>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AlertasComponent', 'selector': 'app-alertas'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CadastrarComponent', 'selector': 'app-cadastrar'},{'name': 'EntrarComponent', 'selector': 'app-entrar'},{'name': 'InicioComponent', 'selector': 'app-inicio'},{'name': 'MenuComponent', 'selector': 'app-menu'},{'name': 'PostagemDeleteComponent', 'selector': 'app-postagem-delete'},{'name': 'PostagemEditComponent', 'selector': 'app-postagem-edit'},{'name': 'RodapeComponent', 'selector': 'app-rodape'},{'name': 'TemaComponent', 'selector': 'app-tema'},{'name': 'TemaDeleteComponent', 'selector': 'app-tema-delete'},{'name': 'TemaEditComponent', 'selector': 'app-tema-edit'},{'name': 'UserEditComponent', 'selector': 'app-user-edit'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'InicioComponent'};
+</script>
+<script src="../js/tree.js"></script>
 
 
 
 
 
+
+
+
+
+
+                   
 
 
 
 
                    </div><div class="search-results">
     <div class="has-results">
-        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
         <ul class="search-results-list"></ul>
     </div>
     <div class="no-results">
@@ -915,8 +1372,22 @@ export class InicioComponent implements OnInit {
     </div>
 </div>
 </div>
+               <!-- END CONTENT -->
            </div>
        </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'InicioComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
 
        <script src="../js/libs/bootstrap-native.js"></script>
 
@@ -927,20 +1398,17 @@ export class InicioComponent implements OnInit {
 
        <script src="../js/compodoc.js"></script>
 
-       <script src="../js/search/search.js"></script>
-       <script src="../js/search/lunr.min.js"></script>
-       <script src="../js/search/search-lunr.js"></script>
-
+       <script src="../js/tabs.js"></script>
        <script src="../js/menu.js"></script>
-       <script src="../js/libs/highlight.pack.js"></script>
-       <script src="../js/libs/highlightjs-line-numbers.min.js"></script>
-       <script src="../js/search/search_index.js"></script>
-       <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                hljs.initHighlightingOnLoad();
-                hljs.initLineNumbersOnLoad();
-            });
-       </script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
 
     </body>
 </html>

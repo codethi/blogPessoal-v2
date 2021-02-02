@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "compodoc": "npx compodoc -p tsconfig.app.json src"
+    "compodoc": "npx compodoc -p tsconfig.json src"
   },
   "private": true,
   "dependencies": {
@@ -20,6 +20,7 @@
     "@angular/platform-browser": "~11.0.4",
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
+    "@compodoc/compodoc": "^1.1.11",
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
     "ngx-bootstrap": "^6.2.0",

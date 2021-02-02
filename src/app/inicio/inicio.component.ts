@@ -48,6 +48,8 @@ export class InicioComponent implements OnInit {
 
     this.getAllTemas()
     this.getAllPostagens()
+
+    
   }
 
   getAllTemas(){
